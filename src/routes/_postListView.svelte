@@ -3,17 +3,15 @@
   export let post;
 </script>
 
-<div
-  class=" bg-gray-100 flex flex-col mb-10 border-2 rounded-md py-8 shadow-lg
-  px-16 text-lg leading-relaxed">
-  <a class="text-3xl" rel="prefetch" href={post.data.slug}>{post.data.title}</a>
+<div class="">
+  <a class="" rel="prefetch" href={post.data.slug}>{post.data.title}</a>
   <PostInfo {post} />
-  <div class="my-4">
+  <div class="">
     {@html post.excerpt}
     <br />
-    <div class="text-right text-purple-600 hover:text-purple-700">
+    <div class="">
       <a href={post.data.slug}>Read more...</a>
-      <i class="fa fa-chevron-circle-right" />
+      <i class="" />
     </div>
   </div>
 </div>

@@ -8,25 +8,23 @@
   }
 </script>
 
-<div class="text-gray-600">
+<div class="">
   {#each tags as tag}
-    <span class="text-sm bg-purple-600 text-white p-1 mr-1 text-sm rounded-sm">
-      {tag}
-    </span>
+    <span class="">{tag}</span>
   {/each}
 
   {#if post.data.author && post.data.author.name}
-    <span class="text-sm ">{post.data.author.name}</span>
+    <span class="">{post.data.author.name}</span>
   {/if}
 
   {#if post.data.author && post.data.author.links}
     {#each post.data.author.links as link}
       <a href={link.url} target="__blank" class="">
-        <i class={link.icon} />
+        <span>{link.icon}</span>
       </a>
     {/each}
   {/if}
-  ・
-  <span class="text-sm">{shortDate}</span>
-  <hr class="mb-8 mt-4" />
+
+  <span class="">{shortDate}</span>
+  <hr class="" />
 </div>
