@@ -3,15 +3,8 @@
   export let segment;
 </script>
 
-<div class="">
-  <!-- intermediary wrapper -->
-  <div class="">
-    <!-- sidebar -->
-    <Sidebar {segment} />
-  </div>
+<main p="8" class="">
+  <Sidebar {segment} />
 
-  <!-- non-sidebar -->
-  <main class="">
-    <slot />
-  </main>
-</div>
+  <slot />
+</main>

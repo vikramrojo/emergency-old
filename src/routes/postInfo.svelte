@@ -8,11 +8,13 @@
   }
 </script>
 
-<div class="">
-  {#each tags as tag}
-    <span class="">{tag}</span>
-  {/each}
+<div>
 
+  {#each tags as tag}
+    <a chip mr="3" href="/?tag={tag}" class="">{tag}</a>
+  {/each}
+</div>
+<!-- <div>
   {#if post.data.author && post.data.author.name}
     <span class="">{post.data.author.name}</span>
   {/if}
@@ -26,5 +28,4 @@
   {/if}
 
   <span class="">{shortDate}</span>
-  <hr class="" />
-</div>
+</div> -->

@@ -4,14 +4,11 @@
 </script>
 
 <div class="">
-  <a class="" rel="prefetch" href={post.data.slug}>{post.data.title}</a>
+  <a class="" rel="prefetch" href={post.data.slug}>
+    <h3>{post.data.title}</h3>
+  </a>
   <PostInfo {post} />
   <div class="">
     {@html post.excerpt}
-    <br />
-    <div class="">
-      <a href={post.data.slug}>Read more...</a>
-      <i class="" />
-    </div>
   </div>
 </div>

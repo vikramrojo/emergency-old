@@ -4,13 +4,12 @@
   //   console.log($tagFilter);
 </script>
 
-<div class="">Recent posts {$tagFilter ? 'about ' + $tagFilter : ''}</div>
+<h2 class="">Resources {$tagFilter ? 'on ' + $tagFilter : ''}</h2>
 
-<ul>
+<ul grid columns="3" gap="2">
   {#each $posts as post}
-    <li>
+    <li cell>
       <PostListView {post} />
-
     </li>
   {/each}
 </ul>

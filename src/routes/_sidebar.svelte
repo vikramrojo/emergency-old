@@ -11,21 +11,21 @@
   }
 </script>
 
-<div class="">
+<div mb="3">
 
-  <a class={segment === undefined ? '' : ''} href=".">Home</a>
-
-  <a class={segment === 'about' ? '' : ''} href="about">About</a>
-
-  <div class="">
-
-    <!-- If we have at least 2 tags, add option to remove filter -->
+  <h1>
+    <a class={segment === undefined ? '' : ''} href=".">sub.emergency.fyi</a>
+  </h1>
+  A community sourced resource that highlights active efforts during an
+  emergency response.
+  <div mt="4">
+    <span>Topics:</span>
     {#if $tags.length > 2}
-      <a class="" href="/">all</a>
+      <a chip type="success" href="/" mr="3">all</a>
     {/if}
 
     {#each $tags as tag}
-      <a class="" href="/?tag={tag}">{tag}</a>
+      <a chip class="" href="/?tag={tag}" mr="3">{tag}</a>
     {/each}
   </div>
 
