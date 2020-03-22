@@ -11,7 +11,7 @@
 <div>
 
   {#each tags as tag}
-    <a mr="4" href="/?tag={tag}" class="">{tag}</a>
+    <a chip mr="2" mb="2" href="/?tag={tag}" class="">{tag}</a>
   {/each}
 </div>
 <!-- <div>

@@ -237,8 +237,8 @@ img {
   padding: var(--alert-padding);
   margin-top: 0;
   margin-bottom: var(--component-margin-bottom, 0);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--lighten-more)), to(var(--lighten-more)));
-  background-image: linear-gradient(var(--lighten-more), var(--lighten-more));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--darken-more)), to(var(--darken-more)));
+  background-image: linear-gradient(var(--darken-more), var(--darken-more));
   display: block;
 }
 
@@ -246,10 +246,10 @@ img {
   display: none;
 }
 
-[alert]:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--lighten-more)), to(var(--lighten-more)));
-  background-image: linear-gradient(var(--lighten-more), var(--lighten-more));
-}
+/* [alert]:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--darken)), to(var(--darken)));
+  background-image: linear-gradient(var(--darken), var(--darken));
+} */
 
 a[alert] {
   color: var(--alert-color, black);
@@ -430,12 +430,16 @@ button[type*='disabled'],
 }
 
 a[chip]:hover {
-  color: var(--chip-color);
   background-image: -webkit-gradient(linear, left top, left bottom, from(var(--darken)), to(var(--darken)));
   background-image: linear-gradient(var(--darken), var(--darken));
   text-decoration: none;
   --chip-border-color: var(--chip-link-color);
 }
+
+a[chip][type]:hover {
+  color: white;
+}
+
 
 a[chip]:focus {
   outline: none;

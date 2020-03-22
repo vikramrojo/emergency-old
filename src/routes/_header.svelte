@@ -11,12 +11,21 @@
   }
 </script>
 
-<section p="8 sm3">
+<style>
+
+#topics {
+  position:sticky;
+  top:0;
+}
+
+</style>
+
+<section p="8 sm3" bg="gray3">
   <ul grid columns="3" gap="6">
     <li cell span="3">
       <h1 pb="6">
         <a class={segment === undefined ? '' : ''} color="black" href=".">
-          Emergency FYI for Covid-19
+          Emergency FYI for COVID-19
         </a>
       </h1>
     </li>
@@ -24,13 +33,22 @@
       <h2>
         Help exists if you know where to find it.
       </h2>
-      <h3>Covid-19 is overwhelming the state and federal capacities of the US government. We're centralizing resources to help you navigate this ongoing crisis. Listed are active efforts to mitigate the worst effects of this crisis. We've organized them into a dozen key topics.</h3>
+      <p>COVID-19 is overwhelming federal, state and local capacities of the US government. This site is designed to centralize the resources, helping you navigate this ongoing crisis. Listed below are active efforts to mitigate the worst effects, organized into key topic area.</p>
     </li>
+  </ul>
+</section>
+
+<div alert type="alert" color="white" class="h3" flex px="8 sm3" align="center" py="4"><span>We have 2 critical weeks to slow the spread of Coronavirus. Start by following the US Government response.</span><a button ml="4" href="https://www.coronavirus.gov/">coronavirus.gov</a></div>
+
+<section p="8 sm3" id="topics" bg="gray1">
+  <ul grid columns="3" gap="6">
     <li cell span="2">
-      <h2>Topics:</h2>
-      {#each $tags as tag}
-        <a class="h3" href="/?tag={tag}" mr="4">{tag}</a>
-      {/each}<span></span><a href="/" class="h3" mr="2">ALL</a>
+      <div>
+        <span class="h3" mr="3">Topics:</span>
+        {#each $tags as tag}
+          <a chip type="primary" class="h4" href="/?tag={tag}" mr="4" mb="4">{tag}</a>
+        {/each}<span></span><a href="/" class="h3" mr="2">ALL</a>
+      </div>
     </li>
   </ul>
 </section>
