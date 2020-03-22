@@ -29,8 +29,8 @@
     <li cell span="2">
       <h2>Topics:</h2>
       {#each $tags as tag}
-        <a class="h3" href="/?tag={tag}" mr="2">{tag}</a>
-      {/each}<span></span><a href="/" class="h3" mr="2">clear</a>
+        <a class="h3" href="/?tag={tag}" mr="4">{tag}</a>
+      {/each}<span></span><a href="/" class="h3" mr="2">ALL</a>
     </li>
   </ul>
 </section>
