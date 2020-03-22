@@ -6,9 +6,9 @@
 
 <h2 class="">Resources {$tagFilter ? 'on ' + $tagFilter : ''}</h2>
 
-<ul grid columns="3" gap="2">
+<ul grid columns="3" gap="6">
   {#each $posts as post}
-    <li cell>
+    <li cell p="6" shadow="3" bg="white">
       <PostListView {post} />
     </li>
   {/each}

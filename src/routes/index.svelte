@@ -25,17 +25,14 @@
 <script>
   // import { tagFilter } from "../store.js";
   import PostList from "./_postList.svelte";
-  import Spinner from "./_spinner.svelte";
   import { stores } from "@sapper/app";
   const { preloading, page, session } = stores();
 </script>
 
 <svelte:head>
-  <title>Blog</title>
+  <title>Emergency</title>
 </svelte:head>
 
-{#if $preloading}
-  <Spinner caption="Loading posts..." />
-{:else}
+<section  p="8 sm4">
   <PostList />
-{/if}
+</section>
