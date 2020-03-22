@@ -20,17 +20,17 @@
         </a>
       </h1>
     </li>
-    <li cell span="1">
-      <h2>Topics:</h2>
-      {#each $tags as tag}
-        <a class="h3" href="/?tag={tag}" mr="2">{tag}</a>
-      {/each}<span></span><a href="/" class="h3" mr="2">clear</a>
-    </li>
     <li cell span="2">
       <h2>
         Help exists if you know where to find it.
       </h2>
-      <h3>XYZ is overwhelming the state and federal capacities of the US government. We're centralizing resources to help you navigate this ongoing crisis. Listed are active efforts to mitigate the worst effects of this crisis. They're organized them into a dozen key topics.</h3>
+      <h3>XYZ is overwhelming the state and federal capacities of the US government. We're centralizing resources to help you navigate this ongoing crisis. Listed are active efforts to mitigate the worst effects of this crisis. We've organized them into a dozen key topics.</h3>
+    </li>
+    <li cell span="2">
+      <h2>Topics:</h2>
+      {#each $tags as tag}
+        <a class="h3" href="/?tag={tag}" mr="2">{tag}</a>
+      {/each}<span></span><a href="/" class="h3" mr="2">clear</a>
     </li>
   </ul>
 </section>
