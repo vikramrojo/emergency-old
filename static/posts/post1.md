@@ -1,22 +1,15 @@
 ---
-title: post 1
-slug: post-1-slug
-date: 2020-02-06
-author:
-  name: 'ajboni'
-  links:
-    - url: 'https://github.com/ajboni/'
-      icon: 'github'
-    - url: 'https://aboni.dev/'
-      icon: 'web'
+title: Covid Act Now
+slug: http://covidactnow.org
+date: 2020-03-22
+links:
+  - url: 'jonathan@covidactnow.org'
+    type: 'Email'
 tags:
-  - tag1
-  - tag2
+  - Epidemiological Research
+  - Policy Proposals
 ---
 
-aLorem markdownum fecit: oscula partim, laevaque, cum sedit obiectat Cressa ante
-in sunt, pertimuit, contingere. Mecum sanguine Baccheaque cum **Parnasos** longe
-vicibus et **nostri antra**, cum audiat humum gravitate Gorgonis ignavis
-Circaea?
+This tool is built to enable political leaders to quickly make decisions in their Coronavirus response informed by best available data and modeling.
 
 ---

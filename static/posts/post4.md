@@ -1,19 +1,16 @@
 ---
-title: post 4
-slug: post-4-slug
-date: 2020-02-06
-author:
-  name: 'ajboni'
-  links:
-    - url: 'https://github.com/ajboni/'
-      icon: 'github'
-    - url: 'https://aboni.dev/'
-      icon: 'web'
+title: US Digital Response
+slug: https://www.usdigitalresponse.org/
+date: 2020-03-22
+links:
+  - url: 'info@usdigitalresponse.org'
+    type: 'Email'
 tags:
-  - tag1
-  - tag2
+  - Digital Applications
+  - Governmental Organizations
+  - Volunteer Opportunities
 ---
 
-Elit sint consequat et ullamco. Nisi eu ut Lorem nulla excepteur anim. Sunt magna laboris ut fugiat amet. Elit labore Lorem Lorem nostrud. Laborum enim sunt veniam veniam exercitation sunt proident. Ullamco fugiat nisi aliquip dolore nulla adipisicing sint. Minim sint aliquip ut aliqua do ullamco qui elit aliquip aute labore aute reprehenderit.
+If you work in government, and need top-notch, vetted help to get through the COVID-19 crisis, you’re in the right place. Just fill out this intake form and we’ll figure out the rest.
 
 ---

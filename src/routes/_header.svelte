@@ -16,7 +16,7 @@
     <li cell span="3">
       <h1 pb="6">
         <a class={segment === undefined ? '' : ''} color="black" href=".">
-          Emergency FYI for XYZ
+          Emergency FYI for Covid-19
         </a>
       </h1>
     </li>
@@ -24,7 +24,7 @@
       <h2>
         Help exists if you know where to find it.
       </h2>
-      <h3>XYZ is overwhelming the state and federal capacities of the US government. We're centralizing resources to help you navigate this ongoing crisis. Listed are active efforts to mitigate the worst effects of this crisis. We've organized them into a dozen key topics.</h3>
+      <h3>Covid-19 is overwhelming the state and federal capacities of the US government. We're centralizing resources to help you navigate this ongoing crisis. Listed are active efforts to mitigate the worst effects of this crisis. We've organized them into a dozen key topics.</h3>
     </li>
     <li cell span="2">
       <h2>Topics:</h2>

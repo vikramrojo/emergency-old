@@ -1,19 +1,17 @@
 ---
-title: post 6
-slug: post-6-slug
-date: 2020-02-06
-author:
-  name: 'ajboni'
-  links:
-    - url: 'https://github.com/ajboni/'
-      icon: 'github'
-    - url: 'https://aboni.dev/'
-      icon: 'web'
+title: East Oakland Collective
+slug: http://www.eastoaklandcollective.com/
+date: 2020-03-22
+links:
+  - url: 'https://twitter.com/eoakcollective'
+    type: 'Twitter'
 tags:
-  - tag1
-  - tag2
+  - Self Care
+  - Mutual Aid
+  - Financial Relief
+  - Volunteer Opportunities
 ---
 
-Elit sint consequat et ullamco. Nisi eu ut Lorem nulla excepteur anim. Sunt magna laboris ut fugiat amet. Elit labore Lorem Lorem nostrud. Laborum enim sunt veniam veniam exercitation sunt proident. Ullamco fugiat nisi aliquip dolore nulla adipisicing sint. Minim sint aliquip ut aliqua do ullamco qui elit aliquip aute labore aute reprehenderit.
+The East Oakland Collective provides food and other direct aid to some of our most vulnerable populations.
 
 ---
