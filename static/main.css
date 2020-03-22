@@ -1,6 +1,6 @@
 :root {
   --body-bg-color: var(--gray-1);
-  --body-line-height: 1.5rem;
+  --body-line-height: 1.75rem;
   --button-font-size: var(--fonts-4);
   --button-padding: 1rem;
   --button-font-weight: var(--font-weight-bold);
@@ -15,4 +15,5 @@
   /* --font-family: 'EB Garmond', serif;
   --headings-font-family: var(--font-family); */
   --headings-font-weight: 400;
+  --chip-link-color: var(--white);
 }

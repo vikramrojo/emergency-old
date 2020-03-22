@@ -5,7 +5,7 @@
 
 <div class="">
   <a class="" rel="prefetch" href={post.data.slug}>
-    <h3>{post.data.title}</h3>
+    <h2>{post.data.title}</h2>
   </a>
   <PostInfo {post} />
   <div class="">
