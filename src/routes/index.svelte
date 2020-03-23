@@ -23,14 +23,13 @@
 </script>
 
 <script>
-  // import { tagFilter } from "../store.js";
   import PostList from "./_postList.svelte";
   import { stores } from "@sapper/app";
   const { preloading, page, session } = stores();
 </script>
 
 <svelte:head>
-  <title>Emergency</title>
+  <title>Emergency FYI for COVID-19</title>
 </svelte:head>
 
 <section  p="8 sm4">

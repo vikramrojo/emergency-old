@@ -1,14 +1,12 @@
-# WIP!
+# Emergency FYI
 
-A responsive static blog based on https://github.com/sveltejs/sapper-template
+A static site based on https://github.com/sveltejs/sapper-template
 
 Features:
-- svelte + sapper + tailwindcss
+- Svelte + Sapper + Trim
 - Static, no server needed
 - Write posts in common markdown
-- Image support
-- Filter posts by tags.
-
+- Filter posts by tags
 
 ### Writing posts
 Create posts in `static/posts` folder. The post should be a markdown file with assets links relative to `/static/`  
