@@ -33,7 +33,7 @@
       <h2>
         Help exists if you know where to find it.
       </h2>
-      <p>COVID-19 is overwhelming federal, state and local capacities of the US government. This site is designed to centralize the resources, helping you navigate this ongoing crisis. Listed below are active efforts to mitigate the worst effects, organized into key topic area.</p>
+      <p>The COVID-19 pandemic is overwhelming federal, state, and local capacities of the United States government. We can help you find resources and aid in your local area to navigate this ongoing crisis, and expand your network for volunteer work. Listed below are active efforts to mitigate the worst effects, organized by key topic area.</p>
     </li>
   </ul>
 </section>
@@ -42,12 +42,13 @@
 
 <section p="8 sm3" id="topics" bg="gray1">
   <ul grid columns="3" gap="6">
-    <li cell span="2">
+    <li cell span="3">
       <div>
         <span class="h3" mr="3">Topics:</span>
+        <a href="/state-dept" chip type="primary" class="h4" mr="2">State and Local Health Departments</a>
         {#each $tags as tag}
-          <a chip type="primary" class="h4" href="/?tag={tag}" mr="4" mb="4">{tag}</a>
-        {/each}<span></span><a href="/" class="h3" mr="2">ALL</a>
+          <a chip type="primary" class="h4" href="/?tag={tag}" mr="4" my="1">{tag}</a>
+        {/each}<a href="/" class="h3" mr="2">ALL</a>
       </div>
     </li>
   </ul>

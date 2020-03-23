@@ -7,7 +7,7 @@ links:
     type: 'Twitter'
 tags:
   - Mutual Aid
-  - Non-governmental Organizations
+  - Non-governmental Orgs
   - Volunteer Opportunities
 ---
 

@@ -7,7 +7,7 @@ links:
     type: 'Email'
 tags:
   - Digital Applications
-  - Governmental Organizations
+  - Governmental Orgs
   - Volunteer Opportunities
 ---
 

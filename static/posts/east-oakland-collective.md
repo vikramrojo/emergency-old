@@ -6,7 +6,7 @@ links:
   - url: 'https://twitter.com/eoakcollective'
     type: 'Twitter'
 tags:
-  - Self Care
+  - Treatment and Prevention
   - Mutual Aid
   - Financial Relief
   - Volunteer Opportunities
